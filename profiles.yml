@@ -1,0 +1,13 @@
+northwind:
+  outputs:
+    prod:
+      dbname: "{{ env_var('DB_NAME_PROD') }}"
+      host: "{{ env_var('DB_HOST_PROD') }}"
+      password: "{{ env_var('DB_PASS_PROD') }}"
+      port: "{{ env_var('DB_PORT_PROD') | int }}" # | int para que seja interpretado como inteiro o valor da variavel.
+      schema: "{{ env_var('DB_SCHEMA_PROD') }}"
+      threads: "{{ env_var('DB_THREADS_PROD') | int }}" # | int para que seja interpretado como inteiro o valor da variavel.
+      type: postgres
+      user: "{{ env_var('DB_USER_PROD') }}"
+      keepalives_idle: 0
+  target: prod

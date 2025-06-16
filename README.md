@@ -1,1 +1,3 @@
-# deploy-dbt-core
+# Deploy dbt-core
+
+## Ricardo Marques

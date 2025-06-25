@@ -1,6 +1,6 @@
-# Deploy dbt-core
 
-# Deploy DBT Core com Render
+
+# Deploy DBT Core
 
 Este projeto configura o deploy automatizado de um pipeline `dbt Core` utilizando **Render.com**. Ele foi desenvolvido para rodar transformações de dados agendadas, conectando-se a um banco de dados **PostgreSQL** também instanciado na plataforma Render.
 
